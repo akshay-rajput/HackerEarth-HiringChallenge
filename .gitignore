@@ -1,13 +1,4 @@
 node_modules
-
-doubters/
-twitter-politics/
-extremists/
-
-
-
-
-
 .DS_Store
 /dist
 # local env files
