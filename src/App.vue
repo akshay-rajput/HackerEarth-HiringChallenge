@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-gray-800">
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
@@ -7,7 +7,7 @@
      -->
     <the-navbar></the-navbar>
     
-    <router-view/>
+    <router-view class="flex-grow" />
     
     <the-footer></the-footer>
   </div>
@@ -32,6 +32,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
 }
 
 // #nav {
